@@ -6,7 +6,7 @@ FROM
   SpotifyClone.usuario
     AS us
 INNER JOIN
-  SpotifyClone.data_reproducao AS dt
+  SpotifyClone.historico AS dt
 ON
   us.usuario_id=dt.usuario_id
 GROUP BY
